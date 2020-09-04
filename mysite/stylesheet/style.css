@@ -1,6 +1,9 @@
 .row{
     width: 100%;
 }
+body {
+  background-image: url(mycafe.jpeg);
+}
 @media (min-width: 992px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
@@ -36,13 +39,19 @@
 }
 h1 {
     text-align:center;
-    font-size: 72px;
+    font-size: 52px;
     margin: 10px;
 }
-h3 {
+h2 {
+    
+    border: 1px solid black;
+   
     text-align:right;
-    border: 1px;
+    margin: 0;
+    float: right;
+    padding: 8px;
 }
+
 #first {
     background-color: orangered;
 }
@@ -54,7 +63,7 @@ h3 {
 }
 div {
     box-sizing: border-box;
-    padding: 9px;
+    
     margin-top: 40px;
 }
 .first {
@@ -75,4 +84,10 @@ div {
     border: 1px solid black;
     float: left;
     margin-left: 3%;
+}
+p {
+    padding-top: 25px;
+    padding-right: 9px; 
+    padding-left: 9px;
+    padding-bottom: 9px;  
 }
