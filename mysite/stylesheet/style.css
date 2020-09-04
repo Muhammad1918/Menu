@@ -34,6 +34,9 @@
 .new {
     width: 100%;
 }
+body {
+    background-image: url(mycafe.jpeg);
+}
 h1 {
     text-align:center;
     font-size: 52px;
