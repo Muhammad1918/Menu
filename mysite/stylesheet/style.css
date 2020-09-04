@@ -1,37 +1,78 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-
-  <meta name="viewport" content="width=device-width, initial scale=1">
-    <title>Menu</title>
-
-  <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
-</head>
-<body>
-  </h1>Menu</h1> 
-<div class="new">
-<div class="row">
-  <div class="first col-s-4 col-lg-6">
-    <h3>Beef</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-  </div>
-  <div class="second col-s-4 col-lg-6">
-    <h3>Fish</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-  </div>
-  <div class="third col-s-4 col-lg-12">
-    <h3>Desert</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-  </div>
-</div>
-</div>  
-
-</body>
-</html>
+.row{
+    width: 100%;
+}
+@media (min-width: 992px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 30.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* For tablets: */
+    .col-lg-1 {width: 8.33%;}
+    .col-lg-2 {width: 16.66%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 30.33%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.66%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}
+  }
+.new {
+    width: 100%;
+}
+h1 {
+    text-align:center;
+    font-size: 72px;
+    margin: 10px;
+}
+h3 {
+    text-align:right;
+    border: 1px;
+}
+#first {
+    background-color: orangered;
+}
+#second {
+    background-color: pink;
+}
+#third {
+    background-color: rgb(0, 162, 255);
+}
+div {
+    box-sizing: border-box;
+    padding: 9px;
+    margin-top: 40px;
+}
+.first {
+    background-color:cadetblue;
+    border: 1px solid black;
+    float: left;
+    margin-left: 3%;
+}
+.second {
+    background-color: coral;
+    border: 1px solid black;
+    float: left;
+    margin-left: 3%;
+    
+}
+.third {
+    background-color: rgb(231, 246, 18);
+    border: 1px solid black;
+    float: left;
+    margin-left: 3%;
+}
